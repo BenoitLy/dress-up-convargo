@@ -19,24 +19,47 @@
           </li>
         </ul>
       </nav>
-      <div id="trucker">
-      <input class="name" type="text" placeholder="Trucker name"/>
-      <input class="price-by-km" type="number" placeholder="Price by km"/>
-      <input class="price-by-cubic" type="number" placeholder="Price by m3"/>
-    </div>
-    <div id="shipper">
-      <input class="name" type="text" placeholder="Shipper name"/>
-      <input class="distance" type="number" placeholder="Distance in km"/>
-      <input class="volume" type="number" placeholder="Volume in m3"/>
-      <input class="option" type="checkbox" placeholder="Deductible option"/>
-    </div>
-    <button id="compute">Compute</button>
-    <div id="actors"></div>
-    <script src="convargo.js"></script>
-    <script src="index.js"></script>
+      <div class="form-column-left">
+        <fieldset>
+          <legend>Please enter information about your shipping</legend>
+          <div class="information-column">
+            <div id="trucker">
+              <ul>
+                <li>Trucker's information</li>
+                <li></li>
+                <li><input class="name" type="text" placeholder="Trucker name"/></li>
+                <li><input class="price-by-km" type="number" placeholder="Price by km"/></li>
+                <li><input class="price-by-cubic" type="number" placeholder="Price by m3"/></li>
+              </ul>
+            </div>
+          </div>
+          <div class="information-column">
+            <div id="shipper">
+              <ul>
+                <li>Shipper information</li>
+                <li></li>
+                <li><input class="name" type="text" placeholder="Shipper name"/></li>
+                <li><input class="distance" type="number" placeholder="Distance in km"/></li>
+                <li><input class="volume" type="number" placeholder="Volume in m3"/></li>
+                <li><input class="option" type="checkbox" placeholder="Deductible option"/></li>
+                <li><button id="compute">Compute</button></li>
+              </ul>
+            </div>
+          </div>
+        </fieldset>
+      </div>
+      <div class="form-column-right">
+        <fieldset>
+          <legend>Your quick estimate</legend>
+          <div id="actors">
+          </div>
+          <script src="convargo.js"></script>
+          <script src="index.js"></script>
+        </fieldset>
+      </div>
     </body>
     <footer>
-      <div class="row">
+      <div>
         <div class="column">
           <h4>Mobile Application</h4>
           <ul class="social-icons icon-circle list-unstyled list-inline">    

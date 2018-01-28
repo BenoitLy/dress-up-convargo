@@ -61,12 +61,20 @@ nav li:hover .submenu{
 	position: absolute;
 	top: 100%;
 	right: 0;
-	padding: 0;
+	padding: 14px 10px 0px 0px;
 	z-index: 10000;
 }
 
 .submenu li{
-	border-bottom: 1px solid #c03b26;
+	border : 1px solid #c03b26;
+	border-radius: 25px;
+	background-color: white;
+	opacity: 0.8;
+	margin: 0px 0px 3px 0px;
+}
+
+.submenu li:hover{
+	opacity: 1;
 }
 
 .submenu li a{
@@ -131,21 +139,25 @@ footer > ul > li{
 
 .social-icons .fa-facebook{
 	background-color: #4267b2;
+	border: 1.5px solid #4267b2;
 	color: white;
 } 
 
 .social-icons .fa-twitter{
 	background-color: #1da1f2;
+	border: 1.5px solid #1da1f2;
 	color: white;
 } 
 
 .social-icons .fa-youtube-play{
 	background-color: #ff0000;
+	border: 1.5px solid #ff0000;
 	color: white;
 } 
 
 .social-icons .fa-linkedin{
 	background-color: #0077b5;
+	border: 1.5px solid #0077b5;
 	color: white;
 } 
 
@@ -171,11 +183,13 @@ footer > ul > li{
 
 .social-icons .fa-apple{
 	background-color:#323232;
+	border: 1.5px solid #323232;
 	color: white;
 }
 
 .social-icons .fa-android{
 	background-color:#689f38;
+	border: 1.5px solid #689f38;
 	color: white;
 }  
 
@@ -201,16 +215,43 @@ footer > ul > li{
     background-color: #ebebeb;
 }
 
-.row:after {
+/*.row:after {
     content: "";
     display: table;
     clear: both;
-}
+}*/
 
 form{
 	width: 240px;
 	margin: auto;
 }
 
+.form-column-left{
+	text-align: center;
+    float: left;
+    width: 66.66%;
+    padding: 10px;
+    list-style: square;
+
+}
+
+.form-column-right{
+	text-align: center;
+    float: right;
+    width: 33.33%;
+    padding: 10px;
+    list-style: none;
+
+}
+
+.information-column{
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
+
+.information-column li{
+	list-style: none;
+}
 
 
