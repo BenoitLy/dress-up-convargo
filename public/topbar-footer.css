@@ -7,6 +7,11 @@ body{
 nav{
 	width: 100%;
 	background-color: #c03b26;
+	margin-top: 0px;
+}
+
+.navhome{
+	position: fixed;
 }
 
 nav > ul{
@@ -87,10 +92,14 @@ nav li:hover .submenu{
 footer{
 	background: #ebebeb;
 	position: absolute;
-	bottom: 0;
+	bottom: 0px;
 	width: 100%;
 	border-top: solid 10px #c03b26;
 	display: block;
+}
+
+.footerhome{
+	bottom: -226px;
 }
 
 footer > ul{
@@ -215,11 +224,11 @@ footer > ul > li{
     background-color: #ebebeb;
 }
 
-/*.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}*/
+fieldset{
+	height: 400px;
+	border-radius: 30px;
+	border-color: #c03b26;
+}
 
 form{
 	width: 240px;
@@ -230,7 +239,7 @@ form{
 	text-align: center;
     float: left;
     width: 66.66%;
-    padding: 10px;
+    padding: 20px 10px 20px 20px;
     list-style: square;
 
 }
@@ -239,7 +248,7 @@ form{
 	text-align: center;
     float: right;
     width: 33.33%;
-    padding: 10px;
+    padding: 20px 20px 20px 10px;
     list-style: none;
 
 }
@@ -254,4 +263,55 @@ form{
 	list-style: none;
 }
 
+iframe { 
+    position: absolute;
+    top: 408px;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ 	background: url('Images/Convargo-screen.png') no-repeat;
+  	background-size: cover;
+  	transition: 1s opacity;
+}
 
+ul > li > input{
+	height: 40px;
+	border-radius: 10px;
+	border-color: #c03b26;
+}
+
+ul > li > button{
+	height: 40px;
+	width: 120px;
+	border-radius: 7px;
+	background-color: #c03b26;
+	border-color: #c03b26;
+	color: white;
+
+}
+
+.option{
+	height: 30px;
+	width: 30px;
+}
+
+.actor{
+	margin-top: 40px;
+}
+
+.who{
+	color: white;
+	margin-top: 10px;
+	background-color: #c03b26;
+	border: 5px solid #c03b26;
+	border-radius: 10px;
+}
+
+h2{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
