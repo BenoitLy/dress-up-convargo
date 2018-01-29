@@ -221,7 +221,7 @@ footer > ul > li{
     float: left;
     width: 33.33%;
     padding: 10px;
-    background-color: #ebebeb;
+    background-color: transparent;
 }
 
 fieldset{
@@ -314,4 +314,45 @@ ul > li > button{
 h2{
 	margin-top: 0px;
 	margin-bottom: 0px;
+}
+
+.about, .blog, .contact{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.column-about{
+    float: left;
+    width: 33.33%;
+    background-color: #c03b26;
+    margin-top: 30px;
+    border-radius: 50px;
+    border: 5px solid white;
+}
+
+#presentation{
+	text-align: justify;
+	padding: 0px 25px 0px 50px;
+	color: white;
+}
+
+#chiffres{
+	text-align: justify;
+	padding: 0px 25px 0px 25px;
+	color: white;
+}
+
+#savoir{
+	text-align: justify;
+	padding: 0px 50px 0px 25px;
+	color: white;
+}
+
+#title{
+	text-align: center;
+	background-color: white;
+	color: #c03b26;
+	border-radius: 10px;
+	border-top: 5px solid white;
+	border-bottom: 5px solid white;
 }
